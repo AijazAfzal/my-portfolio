@@ -22,7 +22,9 @@
               "namedChunks": false,
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false
+              "sourceMap": false,
+              "baseHref": "/demo-angular-app/"
+
             }
           },
           "options": {
@@ -47,6 +49,9 @@
             }
           },
           "defaultConfiguration": "development"
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       },
       "prefix": "app",
