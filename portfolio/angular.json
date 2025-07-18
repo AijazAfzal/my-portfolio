@@ -23,7 +23,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "baseHref": "/demo-angular-app/"
+              "baseHref": "/my-portfolio/"
 
             }
           },
